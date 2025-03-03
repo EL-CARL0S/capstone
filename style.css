@@ -1,0 +1,30 @@
+
+.carlos{
+    border-radius: 50%;
+}
+.gradient-container{
+    background-color: #79834B;
+}
+.tree1{
+    mix-blend-mode: multiply;
+}
+.text-custom-dark {
+    color: #F2EED7;
+    font-family: 'Poppins'sans-serif;
+}
+.text-custom-light {
+    color: #124076;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+    .tree1 {
+        position: relative;
+        left: 400px;
+        margin: 0; /* Remove centering on larger screens */
+    }
+}
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
